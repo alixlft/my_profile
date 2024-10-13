@@ -1,0 +1,57 @@
+<head>
+
+
+</head>
+
+a {
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+h2 {
+  color: red;
+	font-size: 20px;
+	font-family: Helvetica;
+}
+
+body {
+  font-weight: normal;
+}
+
+.img-rond { /* select all elements with the class="img-circle" */
+  border-radius: 50%;
+}
+
+#puces li {
+  color: red;
+}
+
+.div-alix {
+margin: 0px auto; /* Let CSS compute the same left & right margins automatically*/
+}
+
+.div-alix-1 {
+	border: 1px solid #333;
+	padding: 0.15rem;
+	display: flex;
+	flex-direction: column;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
